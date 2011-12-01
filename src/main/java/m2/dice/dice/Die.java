@@ -7,6 +7,7 @@ import java.util.Observable;
 import java.util.Observer;
 
 import m2.dice.Util.Randomizer;
+import m2.dice.ihm.DieView;
 
 public class Die extends Observable implements DieI {
 	private int faceValue = 1;
