@@ -23,7 +23,7 @@ class Main {
 	 */
 	public static void main(String args[]) throws Exception {
 
-		HighScoreFactory kit = (HighScoreFactory) Class.forName("hs.SrKit").newInstance();
+		HighScoreFactory kit = (HighScoreFactory) Class.forName("m2.dice.hs.SrKit").newInstance();
 		HighScoreI hs = kit.createHighScore();
 		
 		DieI d1=new DieMock3();
