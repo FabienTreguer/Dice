@@ -6,6 +6,9 @@ import java.awt.Component;
 import java.util.Observable;
 import java.util.Observer;
 
+import m2.dice.ihm.PlayerView;
+
+
 public class Player extends Observable implements PlayerI {
 	private String name;
 
