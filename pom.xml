@@ -5,7 +5,6 @@
 	<artifactId>dice</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>dice</name>
-	<url>http://maven.apache.org</url>
 	<build>
 		<plugins>
 			<plugin>
@@ -27,15 +26,20 @@
 					<target>1.6</target>
 				</configuration>
 			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-site-plugin</artifactId>
+				<version>3.0</version>
+			</plugin>
 		</plugins>
 	</build>
 	<dependencies>
-<!-- 		<dependency> -->
-<!-- 			<groupId>junit</groupId> -->
-<!-- 			<artifactId>junit</artifactId> -->
-<!-- 			<version>3.8.1</version> -->
-<!-- 			<scope>test</scope> -->
-<!-- 		</dependency> -->
+		<!-- <dependency> -->
+		<!-- <groupId>junit</groupId> -->
+		<!-- <artifactId>junit</artifactId> -->
+		<!-- <version>3.8.1</version> -->
+		<!-- <scope>test</scope> -->
+		<!-- </dependency> -->
 		<dependency>
 			<groupId>org.easymock</groupId>
 			<artifactId>easymock</artifactId>
@@ -64,8 +68,24 @@
 			<plugin>
 				<groupId>org.codehaus.mojo</groupId>
 				<artifactId>cobertura-maven-plugin</artifactId>
-				<version>2.2</version>
+				<version>2.5.1</version>
 			</plugin>
 		</plugins>
 	</reporting>
+	<url>https://github.com/momo54/Dice/wiki</url>
+	<description>The Dice Project...
+
+The simplest game (to be sure to have no algo)
+
+</description>
+	<organization>
+		<name>Pascal Molli</name>
+		<url>http://pagesperso.lina.univ-nantes.fr/~molli-p</url>
+	</organization>
+	<scm>
+		<url>https://momo54@github.com/momo54/Dice.git</url>
+	</scm>
+	<issueManagement>
+		<url>https://github.com/momo54/Dice/issues</url>
+	</issueManagement>
 </project>
