@@ -6,7 +6,6 @@ import java.awt.Component;
 import java.util.Observable;
 import java.util.Observer;
 
-import m2.dice.ihm.PlayerView;
 
 
 public class Player extends Observable implements PlayerI {
@@ -27,11 +26,6 @@ public class Player extends Observable implements PlayerI {
 	 * 
 	 * @see player.PlayerI#display()
 	 */
-	public Component display() {
-		Component c = new PlayerView(this);
-		this.addObserver((Observer) c);
-		return c;
-	}
 
 	/*
 	 * (non-Javadoc)
@@ -68,5 +62,12 @@ public class Player extends Observable implements PlayerI {
 		this.setName(text);
 		this.setChanged();
 		this.notifyObservers();
+	}
+
+
+	@Override
+	public Component display() {
+		// TODO Auto-generated method stub
+		return null;
 	}
 }
