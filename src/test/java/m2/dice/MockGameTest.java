@@ -59,5 +59,24 @@ public class MockGameTest extends TestCase {
 		verify(demock1);
 		verify(demock2);
 	}
+	public void testPlay2() {
+
+		DieI demock1 = createMock(DieI.class);
+		expect(demock1.roll()).andReturn((int) 3);
+		replay(demock1);
+
+		DieI demock2 = createMock(DieI.class);
+		expect(demock2.roll()).andReturn((int)5);
+		replay(demock2);
+
+		DiceGame dg = new DiceGame(null, demock1, demock2, new Player("momo"));
+
+		dg.play();
+		assertTrue("turn=1",dg.turn==1);
+		assertTrue("Score=10", dg.getPlayer().getScore()==10);
+
+		verify(demock1);
+		verify(demock2);
+	}
 
 }
