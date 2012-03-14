@@ -28,6 +28,7 @@
 			</plugin>
 		</plugins>
 	</build>
+<!-- test -->
 	<dependencies>
 		<dependency>
 			<groupId>junit</groupId>
