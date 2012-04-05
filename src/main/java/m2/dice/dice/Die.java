@@ -7,7 +7,6 @@ import java.util.Observable;
 import java.util.Observer;
 
 import m2.dice.Util.Randomizer;
-import m2.dice.ihm.DieView;
 
 public class Die extends Observable implements DieI {
 	private int faceValue = 1;
@@ -29,11 +28,6 @@ public class Die extends Observable implements DieI {
 	/* (non-Javadoc)
 	 * @see dice.DieI#display()
 	 */
-	public java.awt.Component display() {
-		Component c = new DieView(this);
-		this.addObserver((Observer) c);
-		return c;
-	}
 
 	/**
 	 * @roseuid 3806E272026C
@@ -49,5 +43,11 @@ public class Die extends Observable implements DieI {
 	 */
 	public int getValue() {
 		return faceValue;
+	}
+
+	@Override
+	public Component display() {
+		// TODO Auto-generated method stub
+		return null;
 	}
 }

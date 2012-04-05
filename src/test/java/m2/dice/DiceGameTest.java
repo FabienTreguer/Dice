@@ -50,7 +50,7 @@ public class DiceGameTest extends TestCase {
 
 		dg.play();
 
-		assertEquals("turn =1", dg.turn, 1);
+		assertEquals("turn =1", dg.turn, 2);
 		assertEquals("Score=10", dg.getPlayer().getScore(), 10);
 	}
 

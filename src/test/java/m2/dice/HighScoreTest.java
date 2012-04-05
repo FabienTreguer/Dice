@@ -20,7 +20,7 @@ public class HighScoreTest extends TestCase {
 		assertTrue(((Entry)hs.getElementAt(0)).getName().equals("toto"));
 		assertTrue(((Entry)hs.getElementAt(0)).getScore()==100);
 		assertTrue(((Entry)hs.getElementAt(1)).getName().equals("titi"));
-		assertTrue(((Entry)hs.getElementAt(1)).getScore()==100);
+		assertTrue(((Entry)hs.getElementAt(1)).getScore()==900);
 	}
 
 	public void testSaveLoad() {
