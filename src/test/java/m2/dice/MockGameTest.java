@@ -53,8 +53,8 @@ public class MockGameTest extends TestCase {
 		DiceGame dg = new DiceGame(null, demock1, demock2, new Player("momo"));
 
 		dg.play();
-		assertTrue("turn=1",dg.turn==1);
-		assertTrue("Score=10", dg.getPlayer().getScore()==10);
+		assertTrue("turn=1",dg.turn==2);
+		assertTrue("Score=10", dg.getPlayer().getScore()==9);
 
 		verify(demock1);
 		verify(demock2);

@@ -1,6 +1,9 @@
-<!-- c'est un truc de ouf -->
-yoo
+Readme :
 
+The Dice Project is  just a pedagogical project...
+
+
+<<<<<<< HEAD
 c'est une modif, modif, réveille toi !!! :p !!!!! ;-)
 
 
@@ -77,3 +80,7 @@ c'est pas un test, c'est un test!!!!
 	</reporting>
 </project>
 toto
+=======
+
+
+>>>>>>> ec8f15ebf4587a0979b13c660a78007b17267480
