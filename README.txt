@@ -1,7 +1,7 @@
 <!-- c'est un truc de ouf -->
 yoo
 
-c'est une modif !!!!! ;-)
+c'est une modif, modif, réveille toi !!! :p !!!!! ;-)
 
 
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -35,6 +35,7 @@ c'est une modif !!!!! ;-)
 		</plugins>
 	</build>
 <!-- test -->
+c'est pas un test, c'est un test!!!!
 	<dependencies>
 		<dependency>
 			<groupId>junit</groupId>
