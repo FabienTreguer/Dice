@@ -37,35 +37,44 @@ public class DiceGameTest extends TestCase {
 	 * 
 	 * @see junit.framework.TestCase#tearDown()
 	 */
-	protected void tearDown() throws Exception {
-		super.tearDown();
-	}
+	protected void tearDown() throws Exception {//ZRTZRYZRTYYIZEU9TZEY87TOUZER
+		super.tearDown();//ZRTZRYZRTYYIZEU9TZEY87TOUZER
+	}//ZRTZRYZRTYYIZEU9TZEY87TOUZER
 
 	/**
 	 * Test method for {@link dicegame.DiceGame#play()}.
 	 */
-	public void testPlay() {
-		DiceGame dg = new DiceGame(new HighScoreMock(), new DieMock3(),
-				new DieMock4(), new Player("momo"));
+	public void testPlay() {//ZRTZRYZRTYYIZEU9TZEY87TOUZER
+		DiceGame dg = new DiceGame(new HighScoreMock(), new DieMock3(),//ZRTZRYZRTYYIZEU9TZEY87TOUZER
+				new DieMock4(), new Player("momo"));//ZRTZRYZRTYYIZEU9TZEY87TOUZER
 
-		dg.play();
-
-		assertEquals("turn =1", dg.turn, 1);
-		assertEquals("Score=10", dg.getPlayer().getScore(), 10);
-	}
-
-	public void testHs() {
-		DiceGame dg = new DiceGame(new HighScoreMock(), new DieMock3(),
-				new DieMock4(), new Player("momo"));
-
-		for (int i = 0; i < 10; i++) {
-			dg.play();
-		}
-		assertEquals("turn =10", dg.turn, 10);
+		dg.play();//ZRTZRYZRTYYIZEU9TZEY87TOUZER
+		//ZRTZRYZRTYYIZEU9TZEY87TOUZER
+		assertEquals("turn =1", dg.turn, 1);//ZRTZRYZRTYYIZEU9TZEY87TOUZER
+		assertEquals("Score=10", dg.getPlayer().getScore(), 10);//ZRTZRYZRTYYIZEU9TZEY87TOUZER
+	}//ZRTZRYZRTYYIZEU9TZEY87TOUZER
+	//ZRTZRYZRTYYIZEU9TZEY87TOUZER
+	public void testHs() {//ZRTZRYZRTYYIZEU9TZEY87TOUZER
+		DiceGame dg = new DiceGame(new HighScoreMock(), new DieMock3(),//ZRTZRYZRTYYIZEU9TZEY87TOUZER
+				new DieMock4(), new Player("momo"));//ZRTZRYZRTYYIZEU9TZEY87TOUZER
+		//ZRTZRYZRTYYIZEU9TZEY87TOUZER
+		for (int i = 0; i < 10; i++) {//ZRTZRYZRTYYIZEU9TZEY87TOUZER
+			dg.play();//ZRTZRYZRTYYIZEU9TZEY87TOUZER
+		}//ZRTZRYZRTYYIZEU9TZEY87TOUZER
+		assertEquals("turn =10", dg.turn, 10);//ZRTZRYZRTYYIZEU9TZEY87TOUZER
 		
-	}
+	}//ZRTZRYZRTYYIZEU9TZEY87TOUZER
 
-}
+}//ZRTZRYZRTYYIZEU9TZEY87TOUZER
+//ZRTZRYZRTYYIZEU9TZEY87TOUZER
+//ZRTZRYZRTYYIZEU9TZEY87TOUZER
+//ZRTZRYZRTYYIZEU9TZEY87TOUZER
+//ZRTZRYZRTYYIZEU9TZEY87TOUZER
+//ZRTZRYZRTYYIZEU9TZEY87TOUZER
+//ZRTZRYZRTYYIZEU9TZEY87TOUZER
+//ZRTZRYZRTYYIZEU9TZEY87TOUZER
+//ZRTZRYZRTYYIZEU9TZEY87TOUZER
+//ZRTZRYZRTYYIZEU9TZEY87TOUZER
 //ZRTZRYZRTYYIZEU9TZEY87TOUZER
 //ZRTZRYZRTYYIZEU9TZEY87TOUZER
 //ZRTZRYZRTYYIZEU9TZEY87TOUZER
