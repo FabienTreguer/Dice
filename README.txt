@@ -2,7 +2,6 @@
 <<<<<<< HEAD
 yopyop zob
 Aloooo
-A7eeeeee
 ezayak
 =======
 yoo
