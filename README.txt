@@ -1,10 +1,8 @@
-
-WAWAWAW NICE SIGNEE BORAT
 <!-- c'est un truc de ouf -->
 yoo
 
 c'est une modif !!!!! ;-)
-
+WAWAWAW NICE SIGNEE BORAT
 
 >>>>>>> 5a64832433616acce42df6eb2837cc95b5673eb4
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
