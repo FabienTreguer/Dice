@@ -1,8 +1,16 @@
 <!-- c'est un truc de ouf -->
+<<<<<<< HEAD
 yopyop zob
 Aloooo
 A7eeeeee
 ezayak
+=======
+yoo
+
+c'est une modif !!!!! ;-)
+
+
+>>>>>>> 5a64832433616acce42df6eb2837cc95b5673eb4
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
@@ -74,3 +82,4 @@ ezayak
 		</plugins>
 	</reporting>
 </project>
+toto
