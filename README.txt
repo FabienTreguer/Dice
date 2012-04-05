@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Readme :
 
 The Dice Project is  just a pedagogical project...
@@ -8,6 +9,17 @@ The Dice Project is  just a pedagogical project...
 c'est une modif, modif, réveille toi !!! :p !!!!! ;-)
 
 
+=======
+<!-- c'est un truc de ouf -->
+<!-- modif by nooz69 -->
+<!-- yopyop zob -->
+yopyop zob
+Aloooo
+ezayak
+yoo
+c'est une modif !!!!! ;-)
+WAWAWAW NICE SIGNEE BORAT
+>>>>>>> ebef6021056171bbd3fedf1e15af2bfc0098deab
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
