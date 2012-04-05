@@ -1,6 +1,7 @@
 Readme :
 
 The Dice Project is  just a pedagogical project...
+<<<<<<< HEAD
 
 
 <<<<<<< HEAD
@@ -84,3 +85,5 @@ toto
 
 
 >>>>>>> ec8f15ebf4587a0979b13c660a78007b17267480
+=======
+>>>>>>> fee2089d1a9e5c13fe54c3563e585450c4150ce9
